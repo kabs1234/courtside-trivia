@@ -14,6 +14,20 @@ An Android app (Kotlin, Jetpack Compose, Material 3) for testing what you know a
   - Stats shows overall accuracy, accuracy and status for each era, your most-missed questions (tap one to open it) and the full quiz history. **Reset progress** (with a confirmation) clears the history and locks the eras again.
 - **Empty states and feedback.** Each list has an empty state. Snackbars confirm adds, updates, deletes and resets. Leaving a quiz partway through asks for confirmation.
 
+## Screenshots
+
+The additional feature is era progression plus the review pile.
+
+| Era banners | Round results |
+|---|---|
+| ![Play screen with era banners](screenshots/play-banners.png) | ![Results after a perfect round](screenshots/results-unlock.png) |
+| The Early Years is passed (blue), Magic & Bird is mastered (gold), the 1990s are up next, and the last two eras are still locked. One missed question waits in the review pile. | A perfect round masters Magic & Bird and opens The Jordan Era. |
+
+| Review pile | Stats |
+|---|---|
+| ![Review quiz with a wrong answer](screenshots/review-pile.png) | ![Stats screen with era status](screenshots/stats.png) |
+| A review round replays a question you missed. Answering it wrong again keeps it in the pile. | Accuracy for each era next to its status, built from the saved quiz history. |
+
 ## Design
 
 Each era is a championship banner, like the ones hanging in an arena. A locked era is an empty outline, an unlocked one is navy, a passed one is royal blue, and a mastered one is gold. The next era to play gets the big banner at the top of the Play screen. Years, titles and scores use Big Shoulders Display, a condensed typeface first drawn for the City of Chicago; everything you read at length stays in the system font.
